@@ -62,8 +62,8 @@ i {
     height: 200px;
     align-items: center;
     justify-content:flex-end;
-    margin: auto;
     justify-content: space-between;
+    margin: auto;
     margin: 5px;
 }
 
@@ -74,5 +74,14 @@ i {
     align-self: flex-end;
     align-items: center;
 
+}
+
+/*footer*/
+
+.conteiner-3 {
+    position: fixed;
+    width: 100vw;
+    height: 3000px;
+    background-color: rgb(186, 202, 39);
 }
 
