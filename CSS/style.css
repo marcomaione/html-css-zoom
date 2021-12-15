@@ -25,12 +25,10 @@ html {
 }
 
 .conteiner-2 {
-    border: solid 1px black;
-    width: 90vw;
-    height: 1000px;
-    background-color: rgb(209, 221, 44);
+    width: 100vw;
+    background-color:black;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 i {
@@ -54,15 +52,19 @@ i {
 
 .flex-1 {
     display: flex;
+    flex-flow:row wrap;
 }
 
 .item {
     background-image: url(https://picsum.photos/200);
     background-size: cover;
-    border: solid 1px black;
     width: 300px;
     height: 200px;
-    margin: 2px 2px;
+    align-items: center;
+    justify-content:flex-end;
+    margin: auto;
+    justify-content: space-between;
+    margin: 5px;
 }
 
 .pinco {
