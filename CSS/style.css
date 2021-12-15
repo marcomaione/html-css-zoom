@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Readex Pro', sans-serif;
+}
+
+.flex {
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    padding: 5px;
+}
+
+#p {
+    color: white;
+    margin-left: 5px;
+}
+
+
+.conteiner {
+    width: 100vw;
+    height: 50px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+}
+
+.view {
+    border: solid 1px black;
+    border-radius:3px;
+    background-color: gray;
+    margin-right: 10px;
+    height: 30px;
+}
+
+.view i {
+    color: white;
+}
