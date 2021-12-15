@@ -14,6 +14,7 @@ html {
     align-items: center;
     padding: 5px;
     justify-content:flex-end;
+    
 }
 
 .conteiner {
@@ -42,7 +43,7 @@ i {
 
 
 .view {
-    border-radius:3px;
+    border-radius:5px;
     background-color: gray;
     margin-right: 20px;
     height: 30px;
@@ -78,10 +79,43 @@ i {
 
 /*footer*/
 
+#p3 {
+    color: red;
+}
+
 .conteiner-3 {
+    display: flex;
     position: fixed;
     width: 100vw;
-    height: 3000px;
-    background-color: rgb(186, 202, 39);
+    height: 80px;
+    background-color:rgb(27, 26, 26);
+    bottom: 0;
+    align-items: center;
+    justify-content: space-between;
 }
+
+.nav-flex {
+    display: flex;
+}
+    
+
+.flex-column {
+    flex-direction: column;
+}
+
+.box p {
+    color: white;
+}
+
+.rigth {
+    padding: 0px 10px;
+    border: solid 1px black;
+    height: 80px;
+    align-items: center;
+    background-color: rgb(56, 55, 55);
+}
+
+
+
+
 
